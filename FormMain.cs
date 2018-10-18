@@ -15,5 +15,11 @@ namespace FYTV_Client
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            DialogLogin dlgLogin = new DialogLogin();
+            dlgLogin.ShowDialog();
+        }
     }
 }
